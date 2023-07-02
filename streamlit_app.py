@@ -90,5 +90,5 @@ if streamlit.button('Add a fruit to the List'):
 except URL as e:
   streamlit.error()
 #streamlit.write('Thanks for adding ', add_my_fruit)
-streamlit.stop()
+#streamlit.stop()
 #my_cur.execute("insert into fruit_load_list_values ('from streamlit')")
